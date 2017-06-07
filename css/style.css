@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Mogra');
+@import url('https://fonts.googleapis.com/css?family=Modak');
+body {
+    background-color: rgb(66, 17, 61);
+}
+
+#main {
+    text-align: center;
+    background-color: rgb(206, 55, 191);
+    width: 80%;
+    margin: 30px 10%;
+    border-radius: 5px;
+}
+
+button.btn {
+    width: 100%;
+}
+
+img#twitch-svg {
+    width: 200px;
+    margin: 50px;
+}
+
+#header {
+    text-align: center;
+}
+
+div.videos {
+    display: inline-block;
+    width: 300px;
+    color: black;
+    margin: 5px;
+}
+
+img.img-preview {
+    border-radius: 5px;
+    margin: 15px;
+    width: 270px;
+}
+
+h3.title-video {
+    font-size: 20px;
+    height: 70px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h1{
+    font-family: 'Bree Serif', serif;
+    font-size: 60px;
+}
+button.accordion {
+    border-radius: 5px;
+    background-color: #2196F3;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    font-family: 'Modak', cursive;
+    font-size: 20px;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: rgb(206,55,219);
+}
+
+button.accordion:after {
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+div.panel {
+    padding: 0 18px;
+    background-color: transparent;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+img.img-streaming {
+    margin-top: 10px;
+    width: 400px;
+    border-radius: 5px;
+    float: left
+}
+h2{
+    margin-top: 5px;
+    font-size: 50px;
+    font-family: 'Mogra', cursive;
+}
+
+img.profile {
+    width: 150px;
+    border-radius: 50%;
+}
